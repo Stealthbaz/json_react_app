@@ -119,17 +119,21 @@ class App extends Component {
         </header>
         <Container>
           <Row>
-            <Col>
+            <Container>
             <URLForm onChange={this.handleURLChange} onSubmit={this.handleURLSubmit} onDefaultURL={this.handleURLDefault} {...this.state} />
-            </Col>
+            </Container>
           </Row>
-          <Row>
-            <Col>
-              <LoadedJSONDisplay onParseStringChange={this.handleParseStringChange} {...this.state}/>
-            </Col>
-            <Col>
-              <ParsingResults {...this.state}/>
-            </Col>
+          <Row style={{ marginTop: 5 + 'px;'}}>
+            <Container>
+              <Row>
+                <Col>
+                  <LoadedJSONDisplay onParseStringChange={this.handleParseStringChange} {...this.state}/>
+                </Col>
+                <Col>
+                  <ParsingResults {...this.state}/>
+                </Col>
+              </Row>
+            </Container>
           </Row>
         </Container>
       </div>

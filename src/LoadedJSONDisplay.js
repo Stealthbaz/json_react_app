@@ -5,7 +5,6 @@ import Row from 'react-bootstrap/lib/Row.js';
 import Col from 'react-bootstrap/lib/Col.js';
 
 import JSONPretty from 'react-json-pretty';
-import 'react-json-pretty/JSONPretty.monikai.styl';
 
 import ParseStringForm from './ParseStringForm';
 
