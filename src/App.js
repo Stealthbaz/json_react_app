@@ -123,7 +123,7 @@ class App extends Component {
             <URLForm onChange={this.handleURLChange} onSubmit={this.handleURLSubmit} onDefaultURL={this.handleURLDefault} {...this.state} />
             </Container>
           </Row>
-          <Row style={{ marginTop: 5 + 'px;'}}>
+          <Row style={{ margin: 10 + 'px;'}}>
             <Container>
               <Row>
                 <Col>

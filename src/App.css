@@ -22,7 +22,9 @@
   to { transform: rotate(360deg); }
 }
 
-
+.container {
+  margin: 10px;
+}
 /****** monikai ******/
 .json-pretty {
   line-height: 1.3;
